@@ -1,0 +1,22 @@
+{
+  "name": "fastify-crud-api",
+  "version": "1.0.0",
+  "description": "API leve com Node.js + Fastify (CRUD básico)",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js"
+  },
+  "keywords": [
+    "node",
+    "fastify",
+    "crud",
+    "api"
+  ],
+  "author": "JFS-In2YourMind",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.26.2",
+    "@fastify/cors": "^8.4.2"
+  }
+}
